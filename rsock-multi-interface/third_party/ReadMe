@@ -1,0 +1,9 @@
+Make sure you delete all below folders when you copy the project (i.e., whenever its absolute path changed)
+1. protobuf-3.5.1
+2. olsrd-master
+3. lemon-1.3.1
+
+After deleting, all above folders will be crosscompiled again for the new path.
+
+add the olsrd_nameservice.so.0.4 and olsrd_jsoninfo.so.1.1 to below path in epc:
+/usr/local/lib/

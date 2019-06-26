@@ -1,0 +1,339 @@
+log_file_name and folder: ./basic_log.txt
+ip address = 192.168.0.35
+hrpd initiating... interface = rmnet_data0, ip address = 192.168.0.35
+detecting olsrd... found running olsrd, pid = 7392
+[2018-07-19 04:45:27.486] [OlsrConnector] [info] init, connected to olsr daemon
+[2018-07-19 04:45:54.466] [TxrxEngine] [error] HrpGraph::findKShortestPath Invalid argument, src or dst is not in the graph
+[2018-07-19 04:45:55.384] [TxrxEngine] [error] HrpGraph::findKShortestPath Invalid argument, src or dst is not in the graph
+[2018-07-19 04:45:56.022] [HrpCore] [info] HrpCore::nodeConnected, peer: 192.168.0.1 connected
+[2018-07-19 04:45:56.307] [HrpCore] [info] HrpCore::nodeConnected, peer: 192.168.0.33 connected
+[2018-07-19 04:46:02.070] [HrpCore] [info] HrpCore::nodeDisconnected, peer: 192.168.0.33 disconnected
+[2018-07-19 04:46:08.020] [TxrxEngine] [error] HrpGraph::findKShortestPath Invalid argument, src or dst is not in the graph
+[2018-07-19 04:46:08.346] [HrpCore] [info] HrpCore::nodeConnected, peer: 192.168.0.33 connected
+[2018-07-19 04:47:55.848] [HrpClientConnection] [info] app echo registered
+[2018-07-19 04:47:55.849] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-0, repl = 3
+[2018-07-19 04:48:01.631] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-1, repl = 3
+[2018-07-19 04:48:03.666] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-2, repl = 3
+[2018-07-19 04:48:05.697] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-3, repl = 3
+[2018-07-19 04:48:07.727] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-4, repl = 3
+[2018-07-19 04:48:09.762] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-5, repl = 3
+[2018-07-19 04:48:11.776] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-6, repl = 3
+[2018-07-19 04:48:14.785] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-7, repl = 3
+[2018-07-19 04:48:14.790] [HrpClientConnection] [info] client closed connection
+[2018-07-19 04:48:14.790] [HrpClientConnection] [info] unregistered from multiplexer
+[2018-07-19 04:49:39.040] [HrpClientConnection] [info] app echo registered
+[2018-07-19 04:49:39.050] [HrpCore] [info] drawReplFactor, rho = 0.971826, pick r = 0.783099, using pi_learner
+[2018-07-19 04:49:39.050] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-8, repl = 1
+[2018-07-19 04:49:39.235] [HrpRouter] [info] data packet 587245760-8 succesfully delivered, delay = 92 ms
+[2018-07-19 04:49:39.314] [HrpRouter] [info] rxReceived new data packet received, id=553691328-0, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:49:41.084] [HrpCore] [info] drawReplFactor, rho = 0.972081, pick r = 0.197551, using pi_learner
+[2018-07-19 04:49:41.085] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-9, repl = 1
+[2018-07-19 04:49:41.296] [HrpRouter] [info] data packet 587245760-9 succesfully delivered, delay = 106 ms
+[2018-07-19 04:49:41.371] [HrpRouter] [info] rxReceived new data packet received, id=553691328-1, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:49:43.094] [HrpCore] [info] drawReplFactor, rho = 0.972329, pick r = 0.277775, using pi_learner
+[2018-07-19 04:49:43.094] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-10, repl = 1
+[2018-07-19 04:49:43.336] [HrpRouter] [info] data packet 587245760-10 succesfully delivered, delay = 121 ms
+[2018-07-19 04:49:43.381] [HrpRouter] [info] rxReceived new data packet received, id=553691328-2, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:49:45.126] [HrpCore] [info] drawReplFactor, rho = 0.972575, pick r = 0.628871, using pi_learner
+[2018-07-19 04:49:45.126] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-11, repl = 1
+[2018-07-19 04:49:45.256] [HrpRouter] [info] data packet 587245760-11 succesfully delivered, delay = 65 ms
+[2018-07-19 04:49:45.336] [HrpRouter] [info] rxReceived new data packet received, id=553691328-3, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:49:47.157] [HrpCore] [info] drawReplFactor, rho = 0.972816, pick r = 0.95223, using pi_learner
+[2018-07-19 04:49:47.158] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-12, repl = 1
+[2018-07-19 04:49:47.384] [HrpRouter] [info] data packet 587245760-12 succesfully delivered, delay = 113 ms
+[2018-07-19 04:49:47.458] [HrpRouter] [info] rxReceived new data packet received, id=553691328-4, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:49:49.169] [HrpCore] [info] drawReplFactor, rho = 0.973051, pick r = 0.717297, using pi_learner
+[2018-07-19 04:49:49.170] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-13, repl = 1
+[2018-07-19 04:49:49.296] [HrpRouter] [info] data packet 587245760-13 succesfully delivered, delay = 63 ms
+[2018-07-19 04:49:49.366] [HrpRouter] [info] rxReceived new data packet received, id=553691328-5, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:49:52.176] [HrpCore] [info] drawReplFactor, rho = 0.973394, pick r = 0.0163006, using pi_learner
+[2018-07-19 04:49:52.177] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-14, repl = 1
+[2018-07-19 04:49:52.178] [HrpClientConnection] [info] client closed connection
+[2018-07-19 04:49:52.178] [HrpClientConnection] [info] unregistered from multiplexer
+[2018-07-19 04:49:52.338] [HrpRouter] [info] data packet 587245760-14 succesfully delivered, delay = 81 ms
+[2018-07-19 04:51:49.308] [HrpClientConnection] [info] app echo registered
+[2018-07-19 04:51:49.308] [HrpCore] [info] drawReplFactor, rho = 0.982223, pick r = 0.804177, using pi_learner
+[2018-07-19 04:51:49.308] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-15, repl = 1
+[2018-07-19 04:51:49.476] [HrpRouter] [info] data packet 587245760-15 succesfully delivered, delay = 84 ms
+[2018-07-19 04:51:49.558] [HrpRouter] [info] rxReceived new data packet received, id=553691328-6, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:51:51.308] [HrpCore] [info] drawReplFactor, rho = 0.982323, pick r = 0.12979, using pi_learner
+[2018-07-19 04:51:51.308] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-16, repl = 1
+[2018-07-19 04:51:51.558] [HrpRouter] [info] data packet 587245760-16 succesfully delivered, delay = 125 ms
+[2018-07-19 04:51:51.624] [HrpRouter] [info] rxReceived new data packet received, id=553691328-7, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:51:53.335] [HrpCore] [info] drawReplFactor, rho = 0.982423, pick r = 0.218257, using pi_learner
+[2018-07-19 04:51:53.336] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-17, repl = 2
+[2018-07-19 04:51:53.509] [HrpRouter] [info] data packet 587245760-17 succesfully delivered, delay = 87 ms
+[2018-07-19 04:51:53.584] [HrpRouter] [info] rxReceived new data packet received, id=553691328-8, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:51:55.365] [HrpCore] [info] drawReplFactor, rho = 0.982522, pick r = 0.61264, using pi_learner
+[2018-07-19 04:51:55.365] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-18, repl = 1
+[2018-07-19 04:51:55.555] [HrpRouter] [info] data packet 587245760-18 succesfully delivered, delay = 95 ms
+[2018-07-19 04:51:55.573] [HrpRouter] [info] rxReceived new data packet received, id=553691328-9, repl=2, last_carrier=192.168.0.33
+[2018-07-19 04:51:57.391] [HrpCore] [info] drawReplFactor, rho = 0.982621, pick r = 0.524287, using pi_learner
+[2018-07-19 04:51:57.392] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-19, repl = 1
+[2018-07-19 04:51:57.721] [HrpRouter] [info] data packet 587245760-19 succesfully delivered, delay = 165 ms
+[2018-07-19 04:51:57.723] [HrpRouter] [info] rxReceived new data packet received, id=553691328-10, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:51:59.402] [HrpCore] [info] drawReplFactor, rho = 0.982717, pick r = 0.292517, using pi_learner
+[2018-07-19 04:51:59.403] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-20, repl = 1
+[2018-07-19 04:51:59.537] [HrpRouter] [info] data packet 587245760-20 succesfully delivered, delay = 67 ms
+[2018-07-19 04:51:59.576] [HrpRouter] [info] rxReceived new data packet received, id=553691328-11, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:52:02.411] [HrpCore] [info] drawReplFactor, rho = 0.982859, pick r = 0.769914, using pi_learner
+[2018-07-19 04:52:02.411] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-21, repl = 1
+[2018-07-19 04:52:02.413] [HrpClientConnection] [info] client closed connection
+[2018-07-19 04:52:02.419] [HrpClientConnection] [info] unregistered from multiplexer
+[2018-07-19 04:52:02.504] [HrpRouter] [info] data packet 587245760-21 succesfully delivered, delay = 46 ms
+[2018-07-19 04:54:11.199] [HrpClientConnection] [info] app echo registered
+[2018-07-19 04:54:11.199] [HrpCore] [info] drawReplFactor, rho = 0.98732, pick r = 0.283315, using pi_learner
+[2018-07-19 04:54:11.199] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-22, repl = 1
+[2018-07-19 04:54:11.406] [HrpRouter] [info] data packet 587245760-22 succesfully delivered, delay = 103 ms
+[2018-07-19 04:54:11.480] [HrpRouter] [info] rxReceived new data packet received, id=553691328-12, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:54:13.205] [HrpCore] [info] drawReplFactor, rho = 0.987371, pick r = 0.919026, using pi_learner
+[2018-07-19 04:54:13.205] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-23, repl = 1
+[2018-07-19 04:54:13.372] [HrpRouter] [info] data packet 587245760-23 succesfully delivered, delay = 83 ms
+[2018-07-19 04:54:13.429] [HrpRouter] [info] rxReceived new data packet received, id=553691328-13, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:54:15.234] [HrpCore] [info] drawReplFactor, rho = 0.987422, pick r = 0.525995, using pi_learner
+[2018-07-19 04:54:15.235] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-24, repl = 1
+[2018-07-19 04:54:15.478] [HrpRouter] [info] data packet 587245760-24 succesfully delivered, delay = 122 ms
+[2018-07-19 04:54:15.518] [HrpRouter] [info] rxReceived new data packet received, id=553691328-14, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:54:17.262] [HrpCore] [info] drawReplFactor, rho = 0.987473, pick r = 0.663227, using pi_learner
+[2018-07-19 04:54:17.263] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-25, repl = 1
+[2018-07-19 04:54:17.471] [HrpRouter] [info] data packet 587245760-25 succesfully delivered, delay = 104 ms
+[2018-07-19 04:54:17.516] [HrpRouter] [info] rxReceived new data packet received, id=553691328-15, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:54:19.298] [HrpCore] [info] drawReplFactor, rho = 0.987524, pick r = 0.0641713, using pi_learner
+[2018-07-19 04:54:19.300] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-26, repl = 1
+[2018-07-19 04:54:19.534] [HrpRouter] [info] data packet 587245760-26 succesfully delivered, delay = 118 ms
+[2018-07-19 04:54:19.582] [HrpRouter] [info] rxReceived new data packet received, id=553691328-16, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:54:21.309] [HrpCore] [info] drawReplFactor, rho = 0.987573, pick r = 0.0630958, using pi_learner
+[2018-07-19 04:54:21.310] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-27, repl = 1
+[2018-07-19 04:54:21.496] [HrpRouter] [info] data packet 587245760-27 succesfully delivered, delay = 93 ms
+[2018-07-19 04:54:21.534] [HrpRouter] [info] rxReceived new data packet received, id=553691328-17, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:54:24.321] [HrpCore] [info] drawReplFactor, rho = 0.987647, pick r = 0.902208, using pi_learner
+[2018-07-19 04:54:24.322] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-28, repl = 1
+[2018-07-19 04:54:24.324] [HrpClientConnection] [info] client closed connection
+[2018-07-19 04:54:24.324] [HrpClientConnection] [info] unregistered from multiplexer
+[2018-07-19 04:54:24.472] [HrpRouter] [info] data packet 587245760-28 succesfully delivered, delay = 75 ms
+[2018-07-19 04:57:40.827] [HrpClientConnection] [info] app echo registered
+[2018-07-19 04:57:40.828] [HrpCore] [info] drawReplFactor, rho = 0.991093, pick r = 0.53976, using pi_learner
+[2018-07-19 04:57:40.836] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-29, repl = 1
+[2018-07-19 04:57:41.340] [HrpRouter] [info] data packet 587245760-29 succesfully delivered, delay = 256 ms
+[2018-07-19 04:57:41.378] [HrpRouter] [info] rxReceived new data packet received, id=553691328-18, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:57:42.825] [HrpCore] [info] drawReplFactor, rho = 0.991118, pick r = 0.512535, using pi_learner
+[2018-07-19 04:57:42.825] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-30, repl = 1
+[2018-07-19 04:57:43.541] [HrpRouter] [info] data packet 587245760-30 succesfully delivered, delay = 358 ms
+[2018-07-19 04:57:43.555] [HrpRouter] [info] rxReceived new data packet received, id=553691328-19, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:57:44.853] [HrpCore] [info] drawReplFactor, rho = 0.991143, pick r = 0.0392803, using pi_learner
+[2018-07-19 04:57:44.858] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-31, repl = 1
+[2018-07-19 04:57:45.737] [HrpRouter] [info] data packet 587245760-31 succesfully delivered, delay = 442 ms
+[2018-07-19 04:57:45.738] [HrpRouter] [info] rxReceived new data packet received, id=553691328-20, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:57:46.888] [HrpCore] [info] drawReplFactor, rho = 0.991169, pick r = 0.93081, using pi_learner
+[2018-07-19 04:57:46.889] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-32, repl = 1
+[2018-07-19 04:57:47.416] [HrpRouter] [info] data packet 587245760-32 succesfully delivered, delay = 264 ms
+[2018-07-19 04:57:47.474] [HrpRouter] [info] rxReceived new data packet received, id=553691328-21, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:57:48.933] [HrpCore] [info] drawReplFactor, rho = 0.991194, pick r = 0.738534, using pi_learner
+[2018-07-19 04:57:48.935] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-33, repl = 1
+[2018-07-19 04:57:49.434] [HrpRouter] [info] data packet 587245760-33 succesfully delivered, delay = 250 ms
+[2018-07-19 04:57:49.476] [HrpRouter] [info] rxReceived new data packet received, id=553691328-22, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:57:50.916] [HrpCore] [info] drawReplFactor, rho = 0.991218, pick r = 0.687861, using pi_learner
+[2018-07-19 04:57:50.917] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-34, repl = 1
+[2018-07-19 04:57:51.112] [HrpRouter] [info] data packet 587245760-34 succesfully delivered, delay = 98 ms
+[2018-07-19 04:57:51.155] [HrpRouter] [info] rxReceived new data packet received, id=553691328-23, repl=1, last_carrier=192.168.0.33
+[2018-07-19 04:57:53.923] [HrpCore] [info] drawReplFactor, rho = 0.991255, pick r = 0.880075, using pi_learner
+[2018-07-19 04:57:53.923] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-35, repl = 1
+[2018-07-19 04:57:53.929] [HrpClientConnection] [info] client closed connection
+[2018-07-19 04:57:53.929] [HrpClientConnection] [info] unregistered from multiplexer
+[2018-07-19 04:57:54.108] [HrpRouter] [info] data packet 587245760-35 succesfully delivered, delay = 93 ms
+[2018-07-19 04:57:56.082] [HrpRouter] [info] update, message 587245760-0 dropped due to ttl
+[2018-07-19 04:58:02.235] [HrpRouter] [info] update, message 587245760-1 dropped due to ttl
+[2018-07-19 04:58:04.284] [HrpRouter] [info] update, message 587245760-2 dropped due to ttl
+[2018-07-19 04:58:06.337] [HrpRouter] [info] update, message 587245760-3 dropped due to ttl
+[2018-07-19 04:58:08.388] [HrpRouter] [info] update, message 587245760-4 dropped due to ttl
+[2018-07-19 04:58:10.442] [HrpRouter] [info] update, message 587245760-5 dropped due to ttl
+[2018-07-19 04:58:12.490] [HrpRouter] [info] update, message 587245760-6 dropped due to ttl
+[2018-07-19 04:58:15.568] [HrpRouter] [info] update, message 587245760-7 dropped due to ttl
+[2018-07-19 05:00:10.079] [HrpClientConnection] [info] app echo registered
+[2018-07-19 05:00:10.080] [HrpCore] [info] drawReplFactor, rho = 0.99265, pick r = 0.228968, using pi_learner
+[2018-07-19 05:00:10.080] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-36, repl = 1
+[2018-07-19 05:00:10.787] [HrpRouter] [info] data packet 587245760-36 succesfully delivered, delay = 353 ms
+[2018-07-19 05:00:10.825] [HrpRouter] [info] rxReceived new data packet received, id=553691328-24, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:00:12.058] [HrpCore] [info] drawReplFactor, rho = 0.992667, pick r = 0.68667, using pi_learner
+[2018-07-19 05:00:12.058] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-37, repl = 1
+[2018-07-19 05:00:12.935] [HrpRouter] [info] data packet 587245760-37 succesfully delivered, delay = 438 ms
+[2018-07-19 05:00:12.936] [HrpRouter] [info] rxReceived new data packet received, id=553691328-25, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:00:14.076] [HrpCore] [info] drawReplFactor, rho = 0.992684, pick r = 0.657304, using pi_learner
+[2018-07-19 05:00:14.076] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-38, repl = 1
+[2018-07-19 05:00:15.139] [HrpRouter] [info] data packet 587245760-38 succesfully delivered, delay = 531 ms
+[2018-07-19 05:00:15.185] [HrpRouter] [info] rxReceived new data packet received, id=553691328-26, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:00:16.103] [HrpCore] [info] drawReplFactor, rho = 0.992701, pick r = 0.92397, using pi_learner
+[2018-07-19 05:00:16.104] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-39, repl = 1
+[2018-07-19 05:00:17.098] [HrpRouter] [info] data packet 587245760-39 succesfully delivered, delay = 497 ms
+[2018-07-19 05:00:17.099] [HrpRouter] [info] rxReceived new data packet received, id=553691328-27, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:00:18.127] [HrpCore] [info] drawReplFactor, rho = 0.992718, pick r = 0.684219, using pi_learner
+[2018-07-19 05:00:18.127] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-40, repl = 1
+[2018-07-19 05:00:19.314] [HrpRouter] [info] data packet 587245760-40 succesfully delivered, delay = 593 ms
+[2018-07-19 05:00:19.357] [HrpRouter] [info] rxReceived new data packet received, id=553691328-28, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:00:20.136] [HrpCore] [info] drawReplFactor, rho = 0.992735, pick r = 0.215825, using pi_learner
+[2018-07-19 05:00:20.137] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-41, repl = 1
+[2018-07-19 05:00:20.415] [HrpRouter] [info] data packet 587245760-41 succesfully delivered, delay = 139 ms
+[2018-07-19 05:00:20.465] [HrpRouter] [info] rxReceived new data packet received, id=553691328-29, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:00:23.144] [HrpCore] [info] drawReplFactor, rho = 0.992761, pick r = 0.14766, using pi_learner
+[2018-07-19 05:00:23.145] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-42, repl = 1
+[2018-07-19 05:00:23.147] [HrpClientConnection] [info] client closed connection
+[2018-07-19 05:00:23.147] [HrpClientConnection] [info] unregistered from multiplexer
+[2018-07-19 05:00:23.302] [HrpRouter] [info] data packet 587245760-42 succesfully delivered, delay = 79 ms
+[2018-07-19 05:00:59.290] [HrpCore] [info] HrpCore::nodeDisconnected, peer: 192.168.0.1 disconnected
+[2018-07-19 05:00:59.291] [HrpCore] [info] HrpCore::nodeDisconnected, peer: 192.168.0.33 disconnected
+[2018-07-19 05:01:59.424] [TxrxEngine] [error] HrpGraph::findKShortestPath Invalid argument, src or dst is not in the graph
+[2018-07-19 05:01:59.808] [TxrxEngine] [error] HrpGraph::findKShortestPath Invalid argument, src or dst is not in the graph
+[2018-07-19 05:02:00.472] [HrpCore] [info] HrpCore::nodeConnected, peer: 192.168.0.1 connected
+[2018-07-19 05:02:00.565] [HrpCore] [info] HrpCore::nodeConnected, peer: 192.168.0.33 connected
+[2018-07-19 05:04:45.661] [HrpClientConnection] [info] app echo registered
+[2018-07-19 05:04:45.662] [HrpCore] [info] drawReplFactor, rho = 0.940187, pick r = 0.431953, using pi_learner
+[2018-07-19 05:04:45.662] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-43, repl = 1
+[2018-07-19 05:04:45.834] [HrpRouter] [info] data packet 587245760-43 succesfully delivered, delay = 86 ms
+[2018-07-19 05:04:45.898] [HrpRouter] [info] rxReceived new data packet received, id=553691328-30, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:04:47.665] [HrpCore] [info] drawReplFactor, rho = 0.940293, pick r = 0.786002, using pi_learner
+[2018-07-19 05:04:47.665] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-44, repl = 1
+[2018-07-19 05:04:47.884] [HrpRouter] [info] data packet 587245760-44 succesfully delivered, delay = 109 ms
+[2018-07-19 05:04:47.964] [HrpRouter] [info] rxReceived new data packet received, id=553691328-31, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:04:49.695] [HrpCore] [info] drawReplFactor, rho = 0.9404, pick r = 0.226107, using pi_learner
+[2018-07-19 05:04:49.695] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-45, repl = 1
+[2018-07-19 05:04:49.878] [HrpRouter] [info] data packet 587245760-45 succesfully delivered, delay = 91 ms
+[2018-07-19 05:04:49.916] [HrpRouter] [info] rxReceived new data packet received, id=553691328-32, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:04:51.725] [HrpCore] [info] drawReplFactor, rho = 0.940507, pick r = 0.556444, using pi_learner
+[2018-07-19 05:04:51.725] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-46, repl = 1
+[2018-07-19 05:04:51.941] [HrpRouter] [info] data packet 587245760-46 succesfully delivered, delay = 108 ms
+[2018-07-19 05:04:51.944] [HrpRouter] [info] rxReceived new data packet received, id=553691328-33, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:04:53.753] [HrpCore] [info] drawReplFactor, rho = 0.940613, pick r = 0.906804, using pi_learner
+[2018-07-19 05:04:53.753] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-47, repl = 1
+[2018-07-19 05:04:53.946] [HrpRouter] [info] data packet 587245760-47 succesfully delivered, delay = 97 ms
+[2018-07-19 05:04:54.001] [HrpRouter] [info] rxReceived new data packet received, id=553691328-34, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:04:55.761] [HrpCore] [info] drawReplFactor, rho = 0.940718, pick r = 0.495444, using pi_learner
+[2018-07-19 05:04:55.762] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-48, repl = 1
+[2018-07-19 05:04:55.895] [HrpRouter] [info] data packet 587245760-48 succesfully delivered, delay = 67 ms
+[2018-07-19 05:04:55.936] [HrpRouter] [info] rxReceived new data packet received, id=553691328-35, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:04:58.768] [HrpCore] [info] drawReplFactor, rho = 0.940874, pick r = 0.935004, using pi_learner
+[2018-07-19 05:04:58.769] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-49, repl = 1
+[2018-07-19 05:04:58.771] [HrpClientConnection] [info] client closed connection
+[2018-07-19 05:04:58.771] [HrpClientConnection] [info] unregistered from multiplexer
+[2018-07-19 05:04:58.905] [HrpRouter] [info] data packet 587245760-49 succesfully delivered, delay = 68 ms
+[2018-07-19 05:05:25.679] [HrpClientConnection] [info] app echo registered
+[2018-07-19 05:05:25.679] [HrpCore] [info] drawReplFactor, rho = 0.942234, pick r = 0.749771, using pi_learner
+[2018-07-19 05:05:25.679] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-50, repl = 1
+[2018-07-19 05:05:25.995] [HrpRouter] [info] data packet 587245760-50 succesfully delivered, delay = 158 ms
+[2018-07-19 05:05:26.057] [HrpRouter] [info] rxReceived new data packet received, id=553691328-36, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:05:27.678] [HrpCore] [info] drawReplFactor, rho = 0.942333, pick r = 0.232262, using pi_learner
+[2018-07-19 05:05:27.679] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-51, repl = 1
+[2018-07-19 05:05:27.875] [HrpRouter] [info] data packet 587245760-51 succesfully delivered, delay = 98 ms
+[2018-07-19 05:05:29.705] [HrpCore] [info] drawReplFactor, rho = 0.942432, pick r = 0.15239, using pi_learner
+[2018-07-19 05:05:29.705] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-52, repl = 1
+[2018-07-19 05:05:30.764] [HrpRouter] [info] rxReceived new data packet received, id=553691328-37, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:05:30.768] [HrpRouter] [info] data packet 587245760-52 succesfully delivered, delay = 531 ms
+[2018-07-19 05:05:30.768] [HrpRouter] [info] rxReceived new data packet received, id=553691328-38, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:05:31.736] [HrpCore] [info] drawReplFactor, rho = 0.942532, pick r = 0.79347, using pi_learner
+[2018-07-19 05:05:31.737] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-53, repl = 1
+[2018-07-19 05:05:31.981] [HrpRouter] [info] data packet 587245760-53 succesfully delivered, delay = 122 ms
+[2018-07-19 05:05:32.021] [HrpRouter] [info] rxReceived new data packet received, id=553691328-39, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:05:33.765] [HrpCore] [info] drawReplFactor, rho = 0.942631, pick r = 0.0745298, using pi_learner
+[2018-07-19 05:05:33.766] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-54, repl = 1
+[2018-07-19 05:05:34.415] [HrpRouter] [info] data packet 587245760-54 succesfully delivered, delay = 325 ms
+[2018-07-19 05:05:34.416] [HrpRouter] [info] rxReceived new data packet received, id=553691328-40, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:05:35.777] [HrpCore] [info] drawReplFactor, rho = 0.942729, pick r = 0.521563, using pi_learner
+[2018-07-19 05:05:35.778] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-55, repl = 1
+[2018-07-19 05:05:36.101] [HrpRouter] [info] data packet 587245760-55 succesfully delivered, delay = 162 ms
+[2018-07-19 05:05:36.421] [HrpRouter] [info] rxReceived new data packet received, id=553691328-41, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:05:38.788] [HrpCore] [info] drawReplFactor, rho = 0.942875, pick r = 0.797798, using pi_learner
+[2018-07-19 05:05:38.788] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-56, repl = 1
+[2018-07-19 05:05:38.791] [HrpClientConnection] [info] client closed connection
+[2018-07-19 05:05:38.791] [HrpClientConnection] [info] unregistered from multiplexer
+[2018-07-19 05:05:38.957] [HrpRouter] [info] data packet 587245760-56 succesfully delivered, delay = 85 ms
+[2018-07-19 05:05:54.227] [HrpClientConnection] [info] app echo registered
+[2018-07-19 05:05:54.227] [HrpCore] [info] drawReplFactor, rho = 0.943611, pick r = 0.967405, using fi_learner
+[2018-07-19 05:05:54.227] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-57, repl = 3
+[2018-07-19 05:05:54.454] [HrpRouter] [info] data packet 587245760-57 succesfully delivered, delay = 113 ms
+[2018-07-19 05:05:54.494] [HrpRouter] [info] rxReceived new data packet received, id=553691328-42, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:05:56.226] [HrpCore] [info] drawReplFactor, rho = 0.943705, pick r = 0.0934805, using pi_learner
+[2018-07-19 05:05:56.227] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-58, repl = 1
+[2018-07-19 05:05:56.498] [HrpRouter] [info] data packet 587245760-58 succesfully delivered, delay = 136 ms
+[2018-07-19 05:05:56.529] [HrpRouter] [info] rxReceived new data packet received, id=553691328-43, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:05:58.254] [HrpCore] [info] drawReplFactor, rho = 0.9438, pick r = 0.0782321, using pi_learner
+[2018-07-19 05:05:58.255] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-59, repl = 1
+[2018-07-19 05:06:00.283] [HrpCore] [info] drawReplFactor, rho = 0.943895, pick r = 0.46142, using pi_learner
+[2018-07-19 05:06:00.284] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-60, repl = 1
+[2018-07-19 05:06:00.348] [HrpRouter] [info] data packet 587245760-59 succesfully delivered, delay = 1047 ms
+[2018-07-19 05:06:00.349] [HrpRouter] [info] rxReceived new data packet received, id=553691328-44, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:06:01.587] [HrpRouter] [info] data packet 587245760-60 succesfully delivered, delay = 652 ms
+[2018-07-19 05:06:01.588] [HrpRouter] [info] rxReceived new data packet received, id=553691328-45, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:06:02.314] [HrpCore] [info] drawReplFactor, rho = 0.943989, pick r = 0.755581, using pi_learner
+[2018-07-19 05:06:02.315] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-61, repl = 1
+[2018-07-19 05:06:02.622] [HrpRouter] [info] data packet 587245760-61 succesfully delivered, delay = 154 ms
+[2018-07-19 05:06:02.641] [HrpRouter] [info] rxReceived new data packet received, id=553691328-46, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:06:04.323] [HrpCore] [info] drawReplFactor, rho = 0.944082, pick r = 0.999994, using fi_learner
+[2018-07-19 05:06:04.324] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-62, repl = 1
+[2018-07-19 05:06:04.500] [HrpRouter] [info] data packet 587245760-62 succesfully delivered, delay = 88 ms
+[2018-07-19 05:06:04.658] [HrpRouter] [info] rxReceived new data packet received, id=553691328-47, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:06:07.333] [HrpCore] [info] drawReplFactor, rho = 0.944221, pick r = 0.125468, using pi_learner
+[2018-07-19 05:06:07.333] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-63, repl = 1
+[2018-07-19 05:06:07.336] [HrpClientConnection] [info] client closed connection
+[2018-07-19 05:06:07.342] [HrpClientConnection] [info] unregistered from multiplexer
+[2018-07-19 05:06:08.377] [HrpRouter] [info] data packet 587245760-63 succesfully delivered, delay = 522 ms
+[2018-07-19 05:09:14.219] [HrpClientConnection] [info] app echo registered
+[2018-07-19 05:09:14.220] [HrpCore] [info] drawReplFactor, rho = 0.951678, pick r = 0.87054, using pi_learner
+[2018-07-19 05:09:14.220] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-64, repl = 1
+[2018-07-19 05:09:15.855] [HrpRouter] [info] data packet 587245760-64 succesfully delivered, delay = 817 ms
+[2018-07-19 05:09:15.857] [HrpRouter] [info] rxReceived new data packet received, id=553691328-48, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:09:16.214] [HrpCore] [info] drawReplFactor, rho = 0.951747, pick r = 0.923069, using pi_learner
+[2018-07-19 05:09:16.215] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-65, repl = 1
+[2018-07-19 05:09:17.254] [HrpRouter] [info] data packet 587245760-65 succesfully delivered, delay = 520 ms
+[2018-07-19 05:09:17.255] [HrpRouter] [info] rxReceived new data packet received, id=553691328-49, repl=5, last_carrier=192.168.0.33
+[2018-07-19 05:09:18.244] [HrpCore] [info] drawReplFactor, rho = 0.951817, pick r = 0.163131, using pi_learner
+[2018-07-19 05:09:18.245] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-66, repl = 1
+[2018-07-19 05:09:18.991] [HrpRouter] [info] data packet 587245760-66 succesfully delivered, delay = 373 ms
+[2018-07-19 05:09:18.993] [HrpRouter] [info] rxReceived new data packet received, id=553691328-50, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:09:20.278] [HrpCore] [info] drawReplFactor, rho = 0.951887, pick r = 0.819695, using pi_learner
+[2018-07-19 05:09:20.279] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-67, repl = 1
+[2018-07-19 05:09:21.021] [HrpRouter] [info] data packet 587245760-67 succesfully delivered, delay = 371 ms
+[2018-07-19 05:09:21.022] [HrpRouter] [info] rxReceived new data packet received, id=553691328-51, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:09:22.305] [HrpCore] [info] drawReplFactor, rho = 0.951956, pick r = 0.57943, using pi_learner
+[2018-07-19 05:09:22.305] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-68, repl = 1
+[2018-07-19 05:09:22.690] [HrpRouter] [info] data packet 587245760-68 succesfully delivered, delay = 192 ms
+[2018-07-19 05:09:22.736] [HrpRouter] [info] rxReceived new data packet received, id=553691328-52, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:09:24.315] [HrpCore] [info] drawReplFactor, rho = 0.952025, pick r = 0.0996401, using pi_learner
+[2018-07-19 05:09:24.316] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-69, repl = 1
+[2018-07-19 05:09:24.521] [HrpRouter] [info] data packet 587245760-69 succesfully delivered, delay = 103 ms
+[2018-07-19 05:09:24.582] [HrpRouter] [info] rxReceived new data packet received, id=553691328-53, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:09:27.320] [HrpCore] [info] drawReplFactor, rho = 0.952127, pick r = 0.304295, using pi_learner
+[2018-07-19 05:09:27.321] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-70, repl = 1
+[2018-07-19 05:09:27.325] [HrpClientConnection] [info] client closed connection
+[2018-07-19 05:09:27.325] [HrpClientConnection] [info] unregistered from multiplexer
+[2018-07-19 05:09:27.501] [HrpRouter] [info] data packet 587245760-70 succesfully delivered, delay = 90 ms
+[2018-07-19 05:10:42.232] [HrpClientConnection] [info] app echo registered
+[2018-07-19 05:10:42.233] [HrpCore] [info] drawReplFactor, rho = 0.95454, pick r = 0.877614, using pi_learner
+[2018-07-19 05:10:42.233] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-71, repl = 1
+[2018-07-19 05:10:42.865] [HrpRouter] [info] data packet 587245760-71 succesfully delivered, delay = 316 ms
+[2018-07-19 05:10:42.915] [HrpRouter] [info] rxReceived new data packet received, id=553691328-54, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:10:44.215] [HrpCore] [info] drawReplFactor, rho = 0.954601, pick r = 0.0354209, using pi_learner
+[2018-07-19 05:10:44.216] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-72, repl = 1
+[2018-07-19 05:10:44.778] [HrpRouter] [info] data packet 587245760-72 succesfully delivered, delay = 281 ms
+[2018-07-19 05:10:44.779] [HrpRouter] [info] rxReceived new data packet received, id=553691328-55, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:10:46.246] [HrpCore] [info] drawReplFactor, rho = 0.954663, pick r = 0.925377, using pi_learner
+[2018-07-19 05:10:46.247] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-73, repl = 1
+[2018-07-19 05:10:46.787] [HrpRouter] [info] data packet 587245760-73 succesfully delivered, delay = 270 ms
+[2018-07-19 05:10:46.795] [HrpRouter] [info] rxReceived new data packet received, id=553691328-56, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:10:48.276] [HrpCore] [info] drawReplFactor, rho = 0.954725, pick r = 0.979434, using fi_learner
+[2018-07-19 05:10:48.277] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-74, repl = 4
+[2018-07-19 05:10:48.974] [HrpRouter] [info] data packet 587245760-74 succesfully delivered, delay = 349 ms
+[2018-07-19 05:10:48.975] [HrpRouter] [info] rxReceived new data packet received, id=553691328-57, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:10:50.305] [HrpCore] [info] drawReplFactor, rho = 0.954786, pick r = 0.983596, using fi_learner
+[2018-07-19 05:10:50.306] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-75, repl = 3
+[2018-07-19 05:10:50.758] [HrpRouter] [info] data packet 587245760-75 succesfully delivered, delay = 226 ms
+[2018-07-19 05:10:50.816] [HrpRouter] [info] rxReceived new data packet received, id=553691328-58, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:10:52.316] [HrpCore] [info] drawReplFactor, rho = 0.954847, pick r = 0.163968, using pi_learner
+[2018-07-19 05:10:52.317] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-76, repl = 1
+[2018-07-19 05:10:52.660] [HrpRouter] [info] data packet 587245760-76 succesfully delivered, delay = 172 ms
+[2018-07-19 05:10:52.669] [HrpRouter] [info] rxReceived new data packet received, id=553691328-59, repl=1, last_carrier=192.168.0.33
+[2018-07-19 05:10:55.324] [HrpCore] [info] drawReplFactor, rho = 0.954937, pick r = 0.0769947, using pi_learner
+[2018-07-19 05:10:55.325] [HrpRouter] [info] addMessageToBuffer new message added: 587245760-77, repl = 1
+[2018-07-19 05:10:55.328] [HrpClientConnection] [info] client closed connection
+[2018-07-19 05:10:55.328] [HrpClientConnection] [info] unregistered from multiplexer
+[2018-07-19 05:10:55.495] [HrpRouter] [info] data packet 587245760-77 succesfully delivered, delay = 85 ms
+[2018-07-19 05:13:02.594] [HrpCore] [info] HrpCore::nodeDisconnected, peer: 192.168.0.1 disconnected
+[2018-07-19 05:13:02.594] [HrpCore] [info] HrpCore::nodeDisconnected, peer: 192.168.0.33 disconnected

@@ -1,0 +1,53 @@
+syntax = "proto3";
+
+package hrp_message;
+
+message HrpPacket {
+    int32 type = 1;
+    int32 src = 2;
+    int32 dst = 3;
+    int32 current_carrier = 4;
+    int32 next_carrier = 5;
+    uint32 remain_repl = 6;
+    repeated int32 carriers = 7;
+    bytes payload = 8;
+
+    message NextHop {
+        repeated int32 hops = 1;
+    }
+
+    map<int32, NextHop> routes = 9;
+
+    int64 gen_time = 10;
+    uint32 ttl = 11;
+    uint32 seqnum = 12;
+    int64 hash = 13;
+    string app = 14;
+}
+
+message MveCoreMessage {
+
+    message EctSet {
+        repeated string node = 1;
+    }
+
+    repeated EctSet keys = 1;
+    repeated double vals = 2;
+
+}
+
+message BloomFilter {
+    uint32 salt_count_ = 1;
+    uint64 table_size_ = 2;
+    uint64 projected_element_count_ = 3;
+    uint64 inserted_element_count_ = 4;
+    uint64 random_seed_ = 5;
+    double desired_false_positive_probability_ = 6;
+    repeated uint32 salt_ = 7;
+    bytes bit_table_ = 8;
+}
+
+message HrpMetaData {
+    MveCoreMessage mveCore = 1;
+    BloomFilter bloomFilter = 2;
+}
